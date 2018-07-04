@@ -69,6 +69,7 @@ The pipeline for how the base foundation works is:
     "_comment": "mode support test and production. test does not reserve inventory or allow for invoices to be posted",
     "mode" : "test",
     "currency": "EUR",
+    "channel_code": "B2C-FIT",
     "passengers": [{
         "index": 1,
         "salutation": "Mr",
