@@ -13,6 +13,6 @@ public with sharing class OnlineBookingAsync implements Queueable, Database.Allo
 	}
 
 	public void execute(QueueableContext context) {
-		helper.commitLines();
+		this.helper.commitLines();
 	}
 }
